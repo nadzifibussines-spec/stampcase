@@ -369,7 +369,7 @@ Thank you for ordering Bloomcase ✨
               transition-all
             "
           >
-            Send to WhatsApp 
+            Send to WhatsApp  
           </button>
 
           <button
