@@ -113,7 +113,7 @@ export default function CustomizePage() {
 
       canvas.add(img);
 
-      canvas.sendObjectToBack(img);
+      canvas.moveObjectTo(img, 0);
 
       canvas.renderAll();
     } catch (error) {
