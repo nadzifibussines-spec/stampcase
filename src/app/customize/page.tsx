@@ -306,9 +306,10 @@ canvas.renderAll();
     if (!canvasInstance.current) return;
 
     const image = canvasInstance.current.toDataURL({
-      format: "png",
-      quality: 1,
-    });
+  format: "png",
+  quality: 1,
+  multiplier: 1,
+});
 
     localStorage.setItem(
       "stampcase-design",
